@@ -1,5 +1,5 @@
 <?php
 
-Auth::routes();
-Route::get('/home', 'HomeController@index')->name('home.index');
+Auth::routes(['register' => false]);
+Route::get('/dashboard', 'HomeController@dashboard')->name('home.dashboard');
 Route::get('/', 'SiteController@root')->name('site.root');
