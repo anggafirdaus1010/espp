@@ -2,6 +2,6 @@
 
 return [
 	'app' => [
-		'name' => 'Electorinic Sabilussalam Payment Process'
+		'name' => 'ESPP'
 	]
 ];
